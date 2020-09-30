@@ -1,3 +1,19 @@
+# 更新(2020-09-30)
+1.增加兼容ios和android 文件目录样式统一转化为flutter目录样式,使得从android或者ios项目copy资源或者从zeplin的设计输出导出文件更方便
+
+2.保留资源下划线
+
+## android原效果:
+
+![](https://github.com/gaoxuefeng/asset_generator/blob/master/raw/gxf_show_1.jpeg?raw=true)
+
+## ios原效果:
+![](https://github.com/gaoxuefeng/asset_generator/blob/master/raw/gxf_show_3.jpeg?raw=true)
+
+## flutter运行后效果:
+![](https://github.com/gaoxuefeng/asset_generator/blob/master/raw/gxf_show_2.jpeg?raw=true)
+
+
 # 更新(2020-09-01)
 资源文件中加入一个所有资源路径的数组，用于可以方便地进行资源遍历用以precache
 使用的工具类如下：
